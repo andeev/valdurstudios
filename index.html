@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valdur Studios — Technology Studio</title>
+  <meta name="description" content="Valdur Studios is an independent technology studio building software, games, and tools." />
+  <meta property="og:title" content="Valdur Studios" />
+  <meta property="og:description" content="An independent technology studio building software, games, and tools." />
+  <meta property="og:url" content="https://valdurstudios.com" />
+  <meta name="theme-color" content="#0b0d12" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="brand">
+        <img src="assets/favicon.svg" alt="" width="28" height="28" />
+        <span>Valdur Studios</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact" class="btn btn-small">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Independent technology studio</p>
+        <h1>We build things<br /><span class="accent">worth using.</span></h1>
+        <p class="lead">
+          Valdur Studios is a home for the software, games, and tools that we and our
+          associates design, build, and ship.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn">See our work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <div class="filters" role="tablist" aria-label="Filter projects"></div>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container about">
+        <div>
+          <h2>About the studio</h2>
+          <p>
+            We're a small, collaborative studio. Each project is led by the people who care
+            most about it, with the rest of us pitching in on design, engineering, and launch.
+          </p>
+          <p>
+            Some projects are commercial, some are experiments, and some are just for fun —
+            but all of them get built with care.
+          </p>
+        </div>
+        <ul class="pillars">
+          <li><strong>Software</strong><span>Web apps, tools, and services.</span></li>
+          <li><strong>Games</strong><span>Interactive experiences and prototypes.</span></li>
+          <li><strong>Experiments</strong><span>Ideas we wanted to see exist.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="team" class="section">
+      <div class="container">
+        <h2>Team &amp; associates</h2>
+        <div class="team-grid" id="team-grid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact">
+        <h2>Let's talk</h2>
+        <p>Have a project idea, a question, or want to collaborate?</p>
+        <a class="btn" href="mailto:hello@valdurstudios.com">hello@valdurstudios.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Valdur Studios. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
