@@ -14,16 +14,6 @@
 //   image       - optional path like "assets/projects/my-project.png" ("" uses a generated cover)
 const PROJECTS = [
   {
-    title: "Valdur Studios Website",
-    description: "The site you're looking at — a fast, dependency-free home for everything the studio builds.",
-    category: "Software",
-    status: "Live",
-    tags: ["HTML", "CSS", "JavaScript"],
-    by: "Valdur Studios",
-    link: "https://valdurstudios.com",
-    image: "",
-  },
-  {
     title: "Sigma Squad",
     description: "A top-down sci-fi action game. Lead a heavily armored soldier through a dark industrial station, holding the line against relentless waves of alien swarmers with a kit of explosive abilities.",
     category: "Games",
@@ -39,6 +29,26 @@ const PROJECTS = [
     category: "Apps",
     status: "In development",
     tags: ["Flutter", "Dart", "Firebase", "iOS & Android"],
+    by: "Valdur Studios",
+    link: "",
+    image: "",
+  },
+  {
+    title: "Chess: Revolution",
+    description: "A tactical roguelike strategy game built around chess. Battle through runs of increasingly tough encounters, collecting upgrades and bending the rules of chess to build a winning army.",
+    category: "Games",
+    status: "In development",
+    tags: ["Roguelike", "Strategy", "Chess"],
+    by: "Valdur Studios",
+    link: "",
+    image: "",
+  },
+  {
+    title: "Untitled Tower Defense",
+    description: "A first-person tower defense game. Build your defenses, then jump into the fight yourself to hold the line against incoming waves.",
+    category: "Games",
+    status: "In development",
+    tags: ["First-person", "Tower defense"],
     by: "Valdur Studios",
     link: "",
     image: "",
