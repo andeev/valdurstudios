@@ -35,3 +35,9 @@ Any static host will work. Some options:
 - **Porkbun Static Hosting**: free with the domain. Upload these files, or connect a GitHub repo.
 - **GitHub Pages / Cloudflare Pages / Netlify**: push to a GitHub repo, connect it to the host,
   then point the domain at it from Porkbun's DNS settings.
+
+## Cache busting
+
+GitHub Pages lets browsers cache files for 10 minutes. After changing `css/style.css`,
+`js/data.js`, or `js/main.js`, bump the `?v=` number on their links in `index.html`
+so visitors get the new version right away.
