@@ -27,7 +27,7 @@ const PROJECTS = [
     category: "Games",
     status: "In development",
     tags: ["Unity", "C#", "Top-down shooter", "Wave survival"],
-    by: "Valdur Studios",
+    by: "Andrew",
     link: "",
     image: "assets/projects/sigma-squad.jpg",
     about: [
@@ -49,7 +49,7 @@ const PROJECTS = [
     category: "Apps",
     status: "In development",
     tags: ["Flutter", "Dart", "Firebase", "iOS & Android"],
-    by: "Valdur Studios",
+    by: "Andrew",
     link: "",
     image: "",
     about: [
@@ -74,7 +74,7 @@ const PROJECTS = [
     category: "Games",
     status: "In development",
     tags: ["Roguelike", "Strategy", "Chess"],
-    by: "Valdur Studios",
+    by: "Peter",
     link: "",
     image: "",
     about: [
@@ -95,7 +95,7 @@ const PROJECTS = [
     category: "Games",
     status: "In development",
     tags: ["First-person", "Tower defense"],
-    by: "Valdur Studios",
+    by: "Peter",
     link: "",
     image: "",
     about: [
