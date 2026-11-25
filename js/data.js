@@ -49,5 +49,5 @@ const PROJECTS = [
 //   name, role, link (optional: portfolio, GitHub, LinkedIn...)
 const TEAM = [
   { name: "Andrew", role: "Founder", link: "" },
-  { name: "Peter", role: "Gamer #1", link: "" },
+  { name: "Peter", role: "Game Philosopher in Chief", link: "" },
 ];
