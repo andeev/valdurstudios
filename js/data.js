@@ -48,6 +48,6 @@ const PROJECTS = [
 // Each team member:
 //   name, role, link (optional: portfolio, GitHub, LinkedIn...)
 const TEAM = [
-  { name: "Your Name", role: "Founder", link: "" },
-  { name: "Associate Name", role: "Collaborator", link: "" },
+  { name: "Andrew", role: "Founder", link: "" },
+  { name: "Peter", role: "Gamer #1", link: "" },
 ];
