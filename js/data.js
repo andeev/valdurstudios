@@ -43,9 +43,9 @@ const PROJECTS = [
     screenshots: ["assets/projects/sigma-squad.jpg"],
   },
   {
-    slug: "memmo",
-    title: "MemMo",
-    description: "Capture short video clips throughout the month, then turn them into a recap video with an intro and music. Share your MemMo with friends during each month's posting window, and follow, comment on, and rewatch everyone's recaps.",
+    slug: "memto",
+    title: "MemTo",
+    description: "Capture short video clips throughout the month, then turn them into a recap video with an intro and music. Share your MemTo with friends during each month's posting window, and follow, comment on, and rewatch everyone's recaps.",
     category: "Apps",
     status: "In development",
     tags: ["Flutter", "Dart", "Firebase", "iOS & Android"],
@@ -53,8 +53,8 @@ const PROJECTS = [
     link: "",
     image: "",
     about: [
-      "Small moments, one recap a month. MemMo is a video diary that doesn't ask much of you: whenever something happens, grab a quick clip. By the end of the month you've got a stack of little moments you'd otherwise have forgotten.",
-      "In the first half of the next month, MemMo turns those clips into a recap video. Pick your favorite clips, add an intro and music, then preview it, save it, and post it for your friends before the window closes on the 15th.",
+      "Small moments, one recap a month. MemTo is a video diary that doesn't ask much of you: whenever something happens, grab a quick clip. By the end of the month you've got a stack of little moments you'd otherwise have forgotten.",
+      "In the first half of the next month, MemTo turns those clips into a recap video. Pick your favorite clips, add an intro and music, then preview it, save it, and post it for your friends before the window closes on the 15th.",
     ],
     features: [
       "Record quick 4-second clips from your day",
